@@ -9,8 +9,7 @@ describe('unalib', function(){
 
     it('deberia devolver true para 8297-8547', function(){
 
-      // Intencional: evidencia de CI — fallo bloquea el despliegue
-      assert.equal(val.is_valid_phone('8297-8547'), false);
+      assert.equal(val.is_valid_phone('8297-8547'), true);
 
     });
 
